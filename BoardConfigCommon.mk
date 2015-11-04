@@ -16,11 +16,11 @@
 
 BOARD_VENDOR := oppo
 
-# CM Hardware
-BOARD_USES_CYANOGEN_HARDWARE := true
+# MK Hardware
+BOARD_USES_MOKEE_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
-    device/oppo/common/cmhw \
-    hardware/cyanogen/cmhw
+    device/oppo/common/mkhw \
+    hardware/mokee/mkhw
 
 # QCOM Power
 TARGET_POWERHAL_VARIANT := qcom
