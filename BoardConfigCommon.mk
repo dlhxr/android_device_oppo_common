@@ -19,7 +19,6 @@ BOARD_VENDOR := oppo
 # MK Hardware
 BOARD_USES_MOKEE_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
-    device/oppo/common/mkhw \
     hardware/mokee/mkhw
 
 # QCOM Power
