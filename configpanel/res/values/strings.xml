@@ -86,4 +86,7 @@
     <string name="alarms_only">Alarms only</string>
     <string name="priority_only">Priority only</string>
     <string name="none">None</string>
+    <string name="key_swap_title">Swap buttons</string>
+    <string name="key_swap_summary">Swap the order of recent and back buttons</string>
+
 </resources>

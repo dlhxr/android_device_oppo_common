@@ -16,6 +16,7 @@
 
 package com.cyanogenmod.settings.device;
 
+import com.cyanogenmod.settings.device.utils.Constants;
 import com.cyanogenmod.settings.device.utils.NodePreferenceActivity;
 
 import org.mokee.internal.util.ScreenType;
@@ -26,14 +27,18 @@ import android.preference.Preference;
 import android.preference.SwitchPreference;
 
 public class TouchscreenGestureSettings extends NodePreferenceActivity {
+    
     private static final String KEY_HAPTIC_FEEDBACK = "touchscreen_gesture_haptic_feedback";
 
     private SwitchPreference mHapticFeedback;
+    private SwitchPreference mKeySwap;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.touchscreen_panel);
+
+        SwitchPreference mKeySwap = (SwitchPreference) findPreference(Constants.KEY_SWAP_KEY);
 
         mHapticFeedback = (SwitchPreference) findPreference(KEY_HAPTIC_FEEDBACK);
         mHapticFeedback.setOnPreferenceChangeListener(this);

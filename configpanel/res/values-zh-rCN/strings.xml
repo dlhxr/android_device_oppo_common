@@ -55,4 +55,7 @@
   <string name="touchscreen_extras">附加功能</string>
   <string name="haptic_feedback">触觉反馈</string>
   <string name="haptic_feedback_summary">检测到手势时振动</string>
+  <string name="key_swap_title">按键切换</string>
+  <string name="key_swap_summary">切换多任务和返回键按键位置</string>
+
 </resources>

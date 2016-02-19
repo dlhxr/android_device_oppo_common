@@ -41,4 +41,8 @@
 
     </PreferenceCategory>
 
+    <SwitchPreference
+        android:key="key_swap"
+        android:title="@string/key_swap_title"
+        android:summary="@string/key_swap_summary" />
 </PreferenceScreen>
