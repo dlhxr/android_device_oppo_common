@@ -45,4 +45,29 @@
         android:key="key_swap"
         android:title="@string/key_swap_title"
         android:summary="@string/key_swap_summary" />
+    
+    <PreferenceCategory android:title="@string/notification_slider">
+        
+        <ListPreference
+            android:key="keycode_top_position"
+            android:dialogTitle="@string/action"
+            android:title="@string/top_position"
+            android:entries="@array/notification_slider_action_entries"
+            android:entryValues="@array/notification_slider_action_entry_values" />
+
+        <ListPreference
+            android:key="keycode_middle_position"
+            android:dialogTitle="@string/action"
+            android:title="@string/middle_position"
+            android:entries="@array/notification_slider_action_entries"
+            android:entryValues="@array/notification_slider_action_entry_values" />
+
+        <ListPreference
+            android:key="keycode_bottom_position"
+            android:dialogTitle="@string/action"
+            android:title="@string/bottom_position"
+            android:entries="@array/notification_slider_action_entries"
+            android:entryValues="@array/notification_slider_action_entry_values" />
+        
+    </PreferenceCategory>
 </PreferenceScreen>
