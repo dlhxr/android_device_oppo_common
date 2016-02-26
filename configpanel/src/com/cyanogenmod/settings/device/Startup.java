@@ -52,8 +52,7 @@ public class Startup extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, final Intent intent) {
         final String action = intent.getAction();
-        if (Intent.ACTION_BOOT_COMPLETED.equals(action)
-                || Intent.ACTION_PRE_BOOT_COMPLETED.equals(action)) {
+        if (mokee.content.Intent.ACTION_INITIALIZE_MK_HARDWARE.equals(action)) {
             // Disable touchscreen gesture settings if needed
             if (!hasTouchscreenGestures()) {
                 disableComponent(context, TouchscreenGestureSettings.class.getName());
