@@ -52,4 +52,18 @@
   <string name="oclick_notification_title_connected">O-Click 已连接</string>
   <string name="oclick_notification_title_disconnected">O-Click 已断开连接</string>
   <string name="oclick_notification_content_disconnected">按下 O-Click 按钮重新连接</string>
+  <!-- Button settings -->
+  <string name="button_panel_title">特有按键</string>
+  <string name="button_swap_title">按键交换</string>
+  <string name="button_swap_summary">交换返回和最近任务按键顺序</string>
+  <!-- Notification slider -->
+  <string name="notification_slider_category_title">三段式</string>
+  <string name="notification_slider_selection_dialog_title">行为</string>
+  <string name="notification_slider_top_position">上</string>
+  <string name="notification_slider_middle_position">中</string>
+  <string name="notification_slider_bottom_position">下</string>
+  <string name="notification_slider_mode_total_silence">静音模式</string>
+  <string name="notification_slider_mode_alarms_only">闹钟模式</string>
+  <string name="notification_slider_mode_priority_only">优先模式</string>
+  <string name="notification_slider_mode_none">正常模式</string>
 </resources>
